@@ -9,7 +9,8 @@ from .email_models import (
     SenderCategory,
     EmailAnalysis,
     PendingTask,
-    Priority
+    Priority,
+    AnalysisReport
 )
 
 __all__ = [
@@ -19,5 +20,6 @@ __all__ = [
     "SenderCategory",
     "EmailAnalysis",
     "PendingTask",
-    "Priority"
+    "Priority",
+    "AnalysisReport"
 ]

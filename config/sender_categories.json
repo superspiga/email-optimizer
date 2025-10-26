@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "name": "cliente",
+      "keywords": ["ordine", "preventivo", "acquisto", "fattura", "pagamento", "contratto"],
+      "domains": [],
+      "priority_weight": 0.9
+    },
+    {
+      "name": "partner",
+      "keywords": ["collaborazione", "partnership", "accordo", "progetto condiviso"],
+      "domains": [],
+      "priority_weight": 0.8
+    },
+    {
+      "name": "fornitore",
+      "keywords": ["fornitura", "spedizione", "delivery", "consegna", "ordine"],
+      "domains": [],
+      "priority_weight": 0.7
+    },
+    {
+      "name": "collega",
+      "keywords": ["meeting", "riunione", "team", "progetto", "deadline"],
+      "domains": [],
+      "priority_weight": 0.75
+    },
+    {
+      "name": "amico",
+      "keywords": ["ciao", "come stai", "weekend", "cena", "festa"],
+      "domains": ["gmail.com", "hotmail.com", "yahoo.com"],
+      "priority_weight": 0.3
+    },
+    {
+      "name": "marketing",
+      "keywords": ["newsletter", "unsubscribe", "offerta", "sconto", "promo"],
+      "domains": [],
+      "priority_weight": 0.2
+    },
+    {
+      "name": "spam",
+      "keywords": ["click here", "winner", "urgent", "verify account", "suspended"],
+      "domains": [],
+      "priority_weight": 0.1
+    },
+    {
+      "name": "altro",
+      "keywords": [],
+      "domains": [],
+      "priority_weight": 0.5
+    }
+  ],
+  "priority_rules": {
+    "urgent_keywords": ["urgente", "urgent", "asap", "immediato", "scadenza"],
+    "action_keywords": ["per favore", "please", "puoi", "potresti", "devi", "necessario", "richiesta"]
+  }
+}
